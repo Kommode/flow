@@ -1,0 +1,60 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <a href="{{ site.baseurl }}/">
+    {% include logo.html %}
+  </a>
+ {% include pagination.html %}
+
+
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+             
+      {% if post.thumbnail != nil and forloop.first %}
+
+        <li class="firstPostWithThumb">
+          <a href="{{ post.url | prepend: site.baseurl }}">
+            <div class="thumbnail" style="background-image: url({{ page.relative }}{{ post.thumbnail }}); height: 1000px">
+            </div>
+          </a>
+
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+
+          <span class="post-meta">
+            {{ post.date | date: "%b %d, %Y" }}
+          </span>
+            {{ post.excerpt }}
+          <p class="read-more"></p>
+        </li>
+
+      {% else %}
+
+        <li>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+
+        <span class="post-meta">
+          {{ post.date | date: "%b %d, %Y" }}
+        </span>
+          {{ post.excerpt }}
+        <p class="read-more"></p>
+      </li>
+      {% endif %}
+
+    {% endfor %}
+  </ul>
+
+  {% include pagination.html %}
+
+
+  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+
+</div>
+
