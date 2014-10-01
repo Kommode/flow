@@ -4,10 +4,10 @@
     <title>Kommode-flow</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 01 Oct 2014 15:20:55 +0200</pubDate>
-    <lastBuildDate>Wed, 01 Oct 2014 15:20:55 +0200</lastBuildDate>
+    <link>/flow/</link>
+    <atom:link href="/flow/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 01 Oct 2014 15:42:17 +0200</pubDate>
+    <lastBuildDate>Wed, 01 Oct 2014 15:42:17 +0200</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -19,8 +19,8 @@
 &lt;p&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Oct 2014 17:15:20 +0200</pubDate>
-        <link>/test-category/2014/10/01/firstposttest.html</link>
-        <guid isPermaLink="true">/test-category/2014/10/01/firstposttest.html</guid>
+        <link>/flow/test-category/2014/10/01/firstposttest.html</link>
+        <guid isPermaLink="true">/flow/test-category/2014/10/01/firstposttest.html</guid>
         
         <category>test-tag</category>
         
